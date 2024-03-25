@@ -1,0 +1,80 @@
+@font-face {
+    font-family: gadiza;
+    src: url(../font/gadiza.ttf);
+}
+body{
+    background-image: url(../img/background.jpeg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: gadiza;
+    margin-top: 20px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 120px;
+    font-weight: 500;
+    height: 100%;
+    z-index: 1000;
+}
+.nav-item {
+    padding: 5px 0;
+    margin-left: 0.5em;
+}
+.transyl3 h1{
+    font-family: gadiza;
+    text-align: center
+}
+.transyl3 {
+    width: 88%;
+    margin-left: 30px;
+}
+.transyl3 img{
+    margin-right: 20px;
+    width: 20%;
+}
+.transyl3 img:hover{
+    width: 30%;
+    transition: 2s ease-in;
+}
+
+@media (max-width:768px) {
+    .navbar{
+        width: 88px;
+    }
+    .nav-item{
+        font-size: 90%;
+    }
+    .navbar-toggler-icon{
+        width: 25px;
+    }
+    .transyl3{
+        width: 80%;
+        text-align: center;
+    }
+    .transyl3 img{
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .navbar{
+        width: 70px;
+    }
+    .nav-item{
+        font-size: 60%;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .transyl3{
+        width: 65%;
+    }
+    .transyl3 h1{
+        font-size: 24px;
+    }
+}

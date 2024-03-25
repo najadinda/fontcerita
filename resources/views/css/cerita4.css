@@ -1,0 +1,90 @@
+@font-face {
+    font-family: gadiza;
+    src: url(../font/gadiza.ttf);
+}
+body{
+    background-image: url(../img/background.jpeg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: gadiza;
+    margin-top: 20px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    font-weight: 500;
+    height: 100%;
+    z-index: 1000;
+}
+.nav-item {
+    padding: 5px 0;
+    font-size: 16px;
+    margin-left: 0.5em;
+}
+.transyl4 h1{
+    font-family: gadiza;
+    text-align: center;
+}
+.transyl4 img{
+    margin-right: 20px;
+    width: 20%;
+}
+.transyl4 p{
+    width: 90%;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.transyl4 img:hover{
+    width: 25%;
+    transition: 2s;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        width: 90px;
+    }
+    .nav-item{
+        font-size: 15px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .transyl4 h1{
+        margin-left: 50px;
+    }
+    .transyl4 p{
+        width: 80%;
+        margin-left: 110px;
+        text-align: center;
+    }
+    .transyl4 img{
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .navbar{
+        width:60px;
+    }
+    .nav-item{
+        font-size: 53%;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .transyl4 h1{
+        margin-left: 50px;
+        font-size: 22px;
+    }
+    .transyl4 p{
+        width: 80%;
+        margin-left: 70px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
